@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path 'c:\\\\wamp64\\\\www\\\\holo-frontend' -Force | Where-Object { $_.PSIsContainer } | Select-Object -ExpandProperty Name)"
+    ]
+  }
+}
